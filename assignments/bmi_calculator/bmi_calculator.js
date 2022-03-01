@@ -6,6 +6,7 @@ function BMICalculator(mass, height) {
     }
     else{
         let BMI=mass/(height*height)
+        return BMI
     }
 }
 
